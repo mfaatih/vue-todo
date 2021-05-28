@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+	font-family: Quicksand;
+}
+html {
+	background: linear-gradient(179.72deg, rgba(48, 147, 189, 0.71) 1.48%, rgba(41, 93, 123, 0.9) 47.47%, rgba(86, 15, 79, 0.88) 99.77%);
+	width: 100%;
+	height: 1024px;
+}
+.app {
+	position: absolute;
+	width: 25%;
+	height: 505px;
+	left: 40%;
+	top: 300px;
+	background: rgba(255, 255, 255, 0.06);
+	border-radius: 10px;	
+}
+.input-main {
+	position: absolute;
+	left: 68px;
+	top: 38px;
+}
+.input-field {
+	width: 301px;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #792ED9;
+	box-sizing: border-box;
+	border-radius: 5px 0px 0px 5px;
+}
+.main-button {
+	position: absolute;
+	width: 67px;
+	height: 40px;
+	background: #792ED9;
+	border: 1px solid #792ED9;
+	box-sizing: border-box;
+	border-radius: 0px 5px 5px 0px;
+}
+.answer-div{
+	position: absolute;
+	width: 363px;
+	height: 22px;
+	margin-top: 1px;
+	margin-left: 8px;
+}
+.answer {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 15px;
+}
+.main-list {
+	margin-left: -8px;
+	margin-top: 32px;
+}
+.item-div{
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+}
+.list-item {
+	text-align: center;
+	width: 174px;
+	height: 26px;
+	background: rgba(41, 93, 123, 0.03);
+	border: 1px solid #2B0759;
+	box-sizing: border-box;
+	border-radius: 5px;
+	left: 5px;
+	font-size: 14px;
+}
+.edit-item {
+	width: 77px;
+	height: 26px;
+	background: rgba(41, 93, 123, 0.03);
+	border: 1px solid #2B0759;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.delete-item {
+	width: 77px;
+	height: 26px;
+	background: rgba(41, 93, 123, 0.03);
+	border: 1px solid #2B0759;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.fas fa-pen-square{
+	width: 20px;
+	height: 20px;
+}
+.set-update {
+	text-align: center;
+	width: 174px;
+	height: 26px;
+	background: rgba(41, 93, 123, 0.03);
+	border: 1px solid #2B0759;
+	box-sizing: border-box;
+	border-radius: 5px;
+	left: 5px;
+	font-size: 14px;
+}
+.done-button {
+	width: 77px;
+	height: 26px;
+	background: rgba(41, 93, 123, 0.03);
+	border: 1px solid #2B0759;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-left: 10px;
+}

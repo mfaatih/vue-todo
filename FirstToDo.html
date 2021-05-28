@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First To-Do</title>
+</head>
+<body>
+    <div id='app'>
+        <input @keypress="yaz" v-model="itemName" /> 
+        <button @click="addItem">Ekle</button>
+        
+        <p>{{ answer }}</p>
+        <div v-for="(item, index) in items" :key="index">
+            <Listem  :item="item"  @deleteItem="deleteItem"  />
+        </div>
+        <button>Sil</button>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
